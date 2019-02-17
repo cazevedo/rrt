@@ -1,5 +1,5 @@
 # rrt
-Implementation of a sampling-based planning algorithm, the rapidly- exploring random trees (RRT), as described in *S. M. LaValle, “Rapidly-exploring random trees: A new tool for path planning,” 1998*.
+MATLAB implementation of a sampling-based planning algorithm, the rapidly- exploring random trees (RRT), as described in *S. M. LaValle, “Rapidly-exploring random trees: A new tool for path planning,” 1998*.
 
 LaValle in his paper doesn’t specify which state sampling distribution, nearest-neighbors query, path search, motion and collision detection algorithms/methods should be used. Therefore the algorithm is implemented using a modular approach allowing easily the integration of state of the art algorithms for each one of these components.
 
