@@ -8,3 +8,5 @@ In this particular implementation the open modules discussed above were addresse
 * to find the nearest neighbor was used the euclidean distance, however it could easily have been used the mahalanobis or the minkowski distance.
 * since the environment is discretized, it is assumed that the robot may move in eight different directions (N,S,E,W,NE,NW,SE,SW). Furthermore to simplify the implementation, it was set a fixed step size of one cell.
 * in order to find the optimal path to follow, after the tree is built, it was used A star to search through the outputted tree and returning the shortest path. In the implemented tree it was accounted for weights in each edge making it possible to quickly find, for instance, the fastest path, instead of the shortest.
+
+![alt text](https://raw.githubusercontent.com/cazevedo/rrt/master/example.png?token=AHjB_VF9xifvXBZQIcuC-LU5tvVOo1zHks5ccnLxwA%3D%3D)
